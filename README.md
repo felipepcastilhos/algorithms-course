@@ -71,8 +71,14 @@
 
 # SEÇÃO 11 - LInguagem Java:
 
-- Saída de Dados em Java: - ”sysout+ctrl+space” > snipets - ”System.out.print(nome_variavel); - “System.out.println(“”);”//Escreve e adiciona \n no final - Para concatenar usar o +; - Formatação casas decimais para double: “System.out.println(String.format(“%.2f”, salario));” - Para garantir impressão que o separador de decimais seja o ponto: “Locale.setDefault(Locale.US);”, importando através da biblioteca “import java.util.Locale;” // adicionar esse “locale…” em cima da parte da declaração das variáveis abaixo da public static void
-  -Para atribuir resultado float entre numerador e denominador sendo ambos inteiros, é necessário realizar o casting (double) antes da operação de divisão. Não é possível um inteiro receber um double sem o casting explícito;
+- Saída de Dados em Java: \
+  - ”sysout+ctrl+space” > snipets; \ 
+  - ”System.out.print(nome_variavel); \
+  - “System.out.println(“”);”//Escreve e adiciona \n no final \
+  - Para concatenar usar o +; \
+  - Formatação casas decimais para double: “System.out.println(String.format(“%.2f”, salario));” \
+  - Para garantir impressão que o separador de decimais seja o ponto: “Locale.setDefault(Locale.US);”, importando através da biblioteca “import java.util.Locale;” // adicionar esse “locale…” em cima da parte da declaração das variáveis abaixo da public static void \
+  - Para atribuir resultado float entre numerador e denominador sendo ambos inteiros, é necessário realizar o casting (double) antes da operação de divisão. Não é possível um inteiro receber um double sem o casting explícito;
   -Entrada de Dados:
 - Para input preciso declarar uma variável do tipo “Scanner”, através do termo “Scanner sc = new Scanner(System.in);”, onde essa parte do “new Scanner..” é ja a parte da criação do objeto. Além disso, é preciso adicionar a biblioteca: “import java.util.Scanner;”. Com isso, para ler dado tipo:
 
